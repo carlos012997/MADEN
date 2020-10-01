@@ -76,11 +76,11 @@ nav .nav-menu a:hover {
 
 @font-face {
     font-family: 'icomoon';
-    src:  url('../../fonts/icomoon.eot?vj2opa');
-    src:  url('../../fonts/icomoon.eot?vj2opa#iefix') format('embedded-opentype'),
-      url('../../fonts/icomoon.ttf?vj2opa') format('truetype'),
-      url('../../fonts/icomoon.woff?vj2opa') format('woff'),
-      url('../../fonts/icomoon.svg?vj2opa#icomoon') format('svg');
+    src:  url('../fonts/icomoon.eot?vj2opa');
+    src:  url('../fonts/icomoon.eot?vj2opa#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?vj2opa') format('truetype'),
+      url('../fonts/icomoon.woff?vj2opa') format('woff'),
+      url('../fonts/icomoon.svg?vj2opa#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -148,7 +148,7 @@ nav .icon-menu a:hover {
 
 .hero {
     height: 450px;
-    background-image: url('../../Images/Fondo-2.jpg');
+    background-image: url('../Images/Fondo-2.jpg');
     background-size: 1440px 570px;
     background-repeat: no-repeat;
     display: flex;
