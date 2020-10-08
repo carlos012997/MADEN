@@ -70,9 +70,6 @@ nav .nav-menu a:hover {
     color: #DC7811;
 }
 
-.active {
-    color: #DC7811 !important;
-}
 
 @font-face {
     font-family: 'icomoon';
