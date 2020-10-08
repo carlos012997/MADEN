@@ -32,7 +32,7 @@ figure {
 }
 
 header {
-    background-color: #172E36;
+    background-color: #183037;
     width: 100%;
     height: 150px;
     display: flex;
@@ -158,7 +158,7 @@ nav .icon-menu a:hover {
 
 .hero-container {
     background-color: white;
-    border: 3px solid #102227;
+    border: 3px solid #183037;
     border-radius: 15px;
     margin-left: 830px;
     margin-right: 100px;
@@ -341,7 +341,7 @@ nav .icon-menu a:hover {
 
 .maintenance-choose {
     width: 100%;
-    height: 340px;
+    height: 400px;
     background-color: #DC7811;
     margin: 0;
 }
@@ -350,7 +350,7 @@ nav .icon-menu a:hover {
     text-align: center;
     color: white;
     font-size: 2em;
-    padding-top: 25px;
+    padding-top: 47px;
     margin-bottom: 10px;
 }
 
@@ -387,3 +387,67 @@ nav .icon-menu a:hover {
     color: #102227;
 }
 
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: #001015;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-footer img {
+    height: 80px;
+    padding-top: 10px;
+    padding-right: 250px;
+    margin-left: -100px;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #102227;
+    background-color: white;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.footer-contact h5 {
+    font-size: 1.3em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 0 5px 0 20px;
+}
+
+.footer-contact p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-left: 5px;
+    padding: 0 20px 0 0;
+}
+
+.footer-contact-data ul {
+    color: white;
+}
+
+.footer-icons {
+    margin: 0;
+}
+
+.copyright {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #102227;
+}
+
+.copyright-text p {
+    align-items: center;
+    margin: 0;
+    color: white;
+}
