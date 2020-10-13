@@ -177,7 +177,7 @@ nav .icon-menu a:hover {
     color: #312e33;
     padding: 0 20px 20px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-weight: normal;
     text-align: justify;
     margin: 0;
@@ -195,7 +195,7 @@ nav .icon-menu a:hover {
 
 .services {
     background-color: #172E36;
-    height: 1150px;
+    height: 1070px;
     width: 100%;
 }
 
@@ -215,7 +215,7 @@ nav .icon-menu a:hover {
     padding-top: 35px;
     text-align: center;
     font-family: 'Oxygen', sans-serif;
-    font-size: 2.2em;
+    font-size: 1.9em;
     color: white;
 }
 
@@ -234,12 +234,12 @@ nav .icon-menu a:hover {
     border: 4px solid #102227;
     border-radius: 15px;
     width: 500px;
-    height: 430px;
+    height: 400px;
     margin: 20px 40px 0;
 }
 
 .service-title {
-    font-size: 1.8em;
+    font-size: 1.6em;
     color: #DC7811;
     font-family: 'Oxygen', sans-serif;
     font-weight: bold;
@@ -248,7 +248,7 @@ nav .icon-menu a:hover {
 
 
 .service-details p {
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
     margin: 15px 25px;
@@ -291,7 +291,7 @@ nav .icon-menu a:hover {
 .outsourcing-title {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
-    font-size: 2.2em;
+    font-size: 1.9em;
     color: #102227;
     margin: 30px;
     margin-left: -80px;
@@ -320,13 +320,13 @@ nav .icon-menu a:hover {
 }
 
 .outsourcing-td i {
-    font-size: 2.5em;
+    font-size: 2.3em;
     margin-right: 15px;
     color: #DC7811;
 }
 
 .outsourcing-td p {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: #102227;
@@ -346,7 +346,7 @@ nav .icon-menu a:hover {
 .choose-title {
     text-align: center;
     color: white;
-    font-size: 2em;
+    font-size: 1.9em;
     padding-top: 47px;
     margin-bottom: 10px;
 }
