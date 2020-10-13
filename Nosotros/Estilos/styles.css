@@ -143,7 +143,7 @@ nav .icon-menu a:hover {
 
 .about {
     width: 100%;
-    height: 650px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -175,6 +175,81 @@ nav .icon-menu a:hover {
     text-align: justify;
     margin: 20px 0;
 }
+
+/* Misión Visión Valores */
+
+.mvv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "mision vision"
+                         "values values";
+    height: 410px;
+    align-items: center;
+}
+
+.mvv h5 {
+    font-size: 1.6em;
+    font-family: 'Oxygen', sans-serif;
+    color: #102227;
+    margin: 15px;
+}
+
+.mvv p {
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.mision {
+    grid-area: mision;
+    text-align: center;
+    border: 3px solid #102227;
+    margin: 30px 80px;
+    border-radius: 15px;
+    height: 150px;
+}
+
+.vision {
+    grid-area: vision;
+    text-align: center;
+    border: 3px solid #102227;
+    margin: 30px 80px;
+    border-radius: 15px;
+    height: 150px;
+}
+
+.values {
+    grid-area: values;
+    text-align: center;
+    border: 3px solid #102227;
+    margin: 10px 480px 40px;
+    border-radius: 15px;
+    height: 150px;
+}
+
+.values-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.values-list ul {
+    margin: 0 30px;
+}
+
+.values-list li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    margin: 5px;
+}
+
+.values-1 li {
+    margin-left: -25px;
+}
+
+
 
 /* Footer */
 
