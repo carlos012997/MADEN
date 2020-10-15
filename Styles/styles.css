@@ -1,0 +1,461 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-size:13px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+
+/* Header */
+
+figure {
+    margin: 0;
+}
+
+.header-image {
+    height: 120px;
+    margin-left: 50px;
+}
+
+header {
+    background-color: #183037;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+/* Menu */
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav .nav-menu {
+    width: 180px;
+    height: inherit;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    list-style: none;
+    margin-left: 350px;
+}
+
+nav .nav-menu a {
+    color: #FFF;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav .nav-menu a:hover {
+    text-decoration: underline;
+    color: #DC7811;
+}
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../../fonts/icomoon.eot?vj2opa');
+    src:  url('../../fonts/icomoon.eot?vj2opa#iefix') format('embedded-opentype'),
+      url('../../fonts/icomoon.ttf?vj2opa') format('truetype'),
+      url('../../fonts/icomoon.woff?vj2opa') format('woff'),
+      url('../../fonts/icomoon.svg?vj2opa#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+  
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: 500;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+.icon-engineering:before {
+    content: "\e900";
+}
+.icon-arrow-up:before {
+    content: "\e901";
+}
+.icon-clock:before {
+    content: "\e902";
+}
+.icon-linkedin:before {
+    content: "\e903";
+}
+.icon-facebook:before {
+    content: "\e904";
+}
+.icon-whatsapp:before {
+    content: "\e905";
+}
+
+nav .icon-menu {
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    margin-left: 180px;
+}
+
+nav .icon-menu li {
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+nav .icon-menu a {
+    color: white;
+    font-size: 35px;
+}
+
+nav .icon-menu a:hover {
+    color: #DC7811;
+}
+
+/* Secciones */
+
+/* Hero */
+
+.hero {
+    height: 450px;
+    background-image: url('../../Images/Fondo-2.jpg');
+    background-size: 1440px 570px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hero-container {
+    background-color: white;
+    border: 3px solid #183037;
+    border-radius: 15px;
+    margin-left: 830px;
+    margin-right: 100px;
+}
+
+.hero h1 {
+    color: #DC7811;
+    font-size: 2em;
+    text-decoration: underline;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.hero p {
+    width: 447px;
+    color: #312e33;
+    padding: 0 20px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: justify;
+    margin: 0;
+}
+
+.h1-description {
+    color: #172E36;
+}
+
+.hero img {
+    width: 100%;
+}
+
+/* Servicios */
+
+.services {
+    background-color: #172E36;
+    height: 970px;
+    width: 100%;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: 590px 590px;
+    justify-content: center;
+    gap: 10px 0;
+}
+
+.service-imageContainer img {
+    margin: 0;
+    height: 150px;
+}
+ 
+.service-image {
+    width: 500px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.services-title {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.9em;
+    color: white;
+    text-align: center;
+}
+
+.services article {
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+.service-details {
+    background-color: white;
+    text-align: center;
+    border: 4px solid #102227;
+    border-radius: 15px;
+    width: 500px;
+    height: 350px;
+    margin: 20px 40px 0;
+}
+
+.service-title {
+    font-size: 1.6em;
+    color: #DC7811;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    margin: 15px 30px;
+}
+
+
+.service-details p {
+    font-size: 1.3em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    margin: 15px 25px;
+    font-weight: 500;
+    color: #3f3844;
+}
+
+.services-b {
+    color: #172E36;
+}
+
+.services-button {
+    margin-top: 45px;
+}
+
+.services-button button {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    background: transparent;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border-color: white;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+.services-button button:hover {
+    color: #DC7811;
+    cursor: pointer;
+    border-color: #DC7811;
+}
+
+/* ¿Porqué tercerizar el mantenimiento? */
+
+.maintenance-outsourcing {
+    height: 500px;
+    margin: 15px 30px 20px 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outsourcing-title {
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.9em;
+    color: #102227;
+    margin: 30px;
+    margin-left: -80px;
+}
+
+.outsourcing-image {
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.outsourcing-image-container {
+    margin-right: 180px;
+}
+
+.outsourcing-td {
+    width: 500px;
+}
+
+.outsourcing-td li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-left: -150px;
+}
+
+.outsourcing-td i {
+    font-size: 2.3em;
+    margin-right: 15px;
+    color: #DC7811;
+}
+
+.outsourcing-td p {
+    font-size: 1.3em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #102227;
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+/* Porqué escogernos */
+
+.maintenance-choose {
+    width: 100%;
+    height: 400px;
+    background-color: #DC7811;
+    margin: 0;
+}
+
+.choose-title {
+    text-align: center;
+    color: white;
+    font-size: 1.9em;
+    padding-top: 47px;
+    margin-bottom: 10px;
+}
+
+.choose-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    height: 250px;
+}
+
+.choose-options article {
+    background-color: white;
+    width: 380px;
+    height: 180px;
+    margin: 25px;
+    border-radius: 15px;
+    border: 2px solid #172E36;
+}
+
+.choose-options h4 {
+    text-align: center;
+    color:#102227;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.choose-options p {
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 10px 15px;
+    text-align: center;
+    color: #102227;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: #001015;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-footer img {
+    height: 80px;
+    padding-top: 10px;
+    padding-right: 250px;
+    margin-left: -100px;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #102227;
+    background-color: white;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.footer-contact h5 {
+    font-size: 1.3em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 0 5px 0 20px;
+}
+
+.footer-contact p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-left: 5px;
+    padding: 0 20px 0 0;
+}
+
+.footer-contact-data ul {
+    color: white;
+}
+
+.footer-icons {
+    margin: 0;
+}
+
+/* Copyright */
+
+.copyright {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #102227;
+}
+
+.copyright-text p {
+    align-items: center;
+    margin: 0;
+    color: white;
+}
