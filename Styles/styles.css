@@ -195,37 +195,41 @@ nav .icon-menu a:hover {
 
 .services {
     background-color: #172E36;
-    height: 1070px;
+    height: 970px;
     width: 100%;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: 590px 590px;
+    justify-content: center;
+    gap: 10px 0;
 }
 
 .service-imageContainer img {
     margin: 0;
     height: 150px;
 }
-
+ 
 .service-image {
     width: 500px;
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
 }
 
-.services .container h2 {
+.services-title {
     margin: 0;
-    padding-top: 35px;
-    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
     font-family: 'Oxygen', sans-serif;
     font-size: 1.9em;
     color: white;
+    text-align: center;
 }
 
-.service-m {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.services article {
     margin: 10px 0px;
     padding: 10px 0px;
-    flex-wrap: wrap;
 }
 
 .service-details {
@@ -234,7 +238,7 @@ nav .icon-menu a:hover {
     border: 4px solid #102227;
     border-radius: 15px;
     width: 500px;
-    height: 400px;
+    height: 350px;
     margin: 20px 40px 0;
 }
 
@@ -255,23 +259,28 @@ nav .icon-menu a:hover {
     font-weight: 500;
     color: #3f3844;
 }
+
 .services-b {
     color: #172E36;
 }
 
-.service-button {
+.services-button {
+    margin-top: 45px;
+}
+
+.services-button button {
     font-family: 'Oxygen', sans-serif;
     font-size: 1.3em;
     font-weight: bold;
     background: transparent;
     padding: 5px 10px;
     border-radius: 15px;
-    border-color: #172E36;
-    color: #172E36;
-    margin: 8px 0;
+    border-color: white;
+    color: white;
+    display: block;
+    margin: 0 auto;
 }
-
-.service-button:hover {
+.services-button button:hover {
     color: #DC7811;
     cursor: pointer;
     border-color: #DC7811;
