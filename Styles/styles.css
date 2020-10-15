@@ -26,9 +26,9 @@ figure {
     margin: 0;
 }
 
-.header-image {
-    height: 120px;
-    margin-left: 50px;
+.header img {
+    height: 110px;
+    margin-left: 80px;
 }
 
 header {
@@ -265,26 +265,26 @@ nav .icon-menu a:hover {
 }
 
 .services-button {
-    margin-top: 45px;
+    margin-top: 50px;
+    text-align: center;
 }
 
-.services-button button {
+.services-button a {
+    background-color: transparent;
+    padding: 10px;
     font-family: 'Oxygen', sans-serif;
     font-size: 1.3em;
-    font-weight: bold;
-    background: transparent;
-    padding: 5px 10px;
-    border-radius: 15px;
-    border-color: white;
+    font-weight: 600;
     color: white;
-    display: block;
-    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 15px;
 }
-.services-button button:hover {
+
+.services-button a:hover {
     color: #DC7811;
-    cursor: pointer;
-    border-color: #DC7811;
+    border: 2px solid #DC7811;
 }
+
 
 /* ¿Porqué tercerizar el mantenimiento? */
 
