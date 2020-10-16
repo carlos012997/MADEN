@@ -303,7 +303,8 @@ nav .icon-menu a:hover {
     font-size: 1.9em;
     color: #102227;
     margin: 30px;
-    margin-left: -80px;
+    margin-left: -120px;
+    width: 600px;
 }
 
 .outsourcing-image {

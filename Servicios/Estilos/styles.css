@@ -138,6 +138,80 @@ nav .icon-menu a:hover {
     color: #DC7811;
 }
 
+/* Services */
+
+/* Diagnostic */
+.services-diagnostic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    border-bottom: 5px solid #183037;
+}
+
+.services-diagnostic-image img {
+    border-radius: 15px;
+    margin-right: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.services h2 {
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    color: #001015;
+    text-decoration: underline;
+}
+
+.services p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    font-weight: 600px;
+    width: 550px;
+    text-align: center;
+    background-color: #DC7811;
+    border: 2px solid #DC7811;
+    border-radius: 15px;
+    padding: 13px 20px;
+    color: white;
+    text-align: justify;
+}
+
+.services ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+/* SMP */
+.services-smp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    border-bottom: 5px solid #183037;
+}
+
+.services-smp-image img {
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.services-smp h2 {
+    width: 400px;
+    padding-left: 100px;
+}
 
 
 /* Footer */
