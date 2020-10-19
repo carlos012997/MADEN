@@ -140,22 +140,6 @@ nav .icon-menu a:hover {
 
 /* Services */
 
-/* Diagnostic */
-.services-diagnostic {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 450px;
-    border-bottom: 5px solid #183037;
-}
-
-.services-diagnostic-image img {
-    border-radius: 15px;
-    margin-right: 90px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
 .services h2 {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
@@ -163,6 +147,8 @@ nav .icon-menu a:hover {
     font-weight: 600;
     color: #001015;
     text-decoration: underline;
+    margin-bottom: 30px;
+    color: white;
 }
 
 .services p {
@@ -183,6 +169,13 @@ nav .icon-menu a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
+    width: 350px;
+    border: 3px solid #102227;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: 30px;
+    padding: 5px 10px 5px 25px;
 }
 
 .services ul li {
@@ -190,24 +183,33 @@ nav .icon-menu a:hover {
     font-size: 1.1em;
     font-weight: 500;
     padding: 5px 0;
+    text-align: center;
 }
 
-/* SMP */
-.services-smp {
+.services-diagnostic, .services-smp, .services-mp, .services-op {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 450px;
-    border-bottom: 5px solid #183037;
+    height: 500px;
+    border-top: 5px solid #DC7811;
+    background-color: #183037;
 }
 
-.services-smp-image img {
+.services-diagnostic-image img, .services-mp-image img {
+    border-radius: 15px;
+    margin-right: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.services-smp-image img, .services-op-image img {
     border-radius: 15px;
     margin-left: 100px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
+/* SMP */
 .services-smp h2 {
     width: 400px;
     padding-left: 100px;
